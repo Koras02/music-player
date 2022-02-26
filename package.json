@@ -1,0 +1,21 @@
+{
+  "name": "yt-music-player",
+  "version": "1.0.0",
+  "description": "yotube music sample player",
+  "main": "index.html",
+  "scripts": {
+    "build": "npx webpack",
+    "update": "npm update --save/--save-dev"
+  },
+  "author": "Koras02",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.69.1",
+    "wepack-cli": "^0.0.1-security"
+  },
+  "dependencies": {
+    "@types/youtube": "^0.0.46"
+  }
+}
